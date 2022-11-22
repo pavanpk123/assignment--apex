@@ -1,0 +1,135 @@
+.first {
+    width: 20%;
+    height: 580px;
+    position: fixed;
+    font-size: 30px;
+    background-color: yellowgreen;
+    margin-left: 0px;
+    padding-top: 50px;
+    margin-right: 10px;
+    
+    
+}
+.first :hover {background-color: wheat;}
+.first :nth-child(even){background-color: whitesmoke;}
+a{
+    text-decoration: none;
+}
+
+
+.third{
+    background-color: aqua;
+    margin-left: 260px;
+    margin-right: 0px;
+    width: 80%;
+    height: 630px;
+    position: fixed;
+}
+
+.four{
+    height: 630px;
+    width: 80%;
+    margin-left: 260px;
+    background-color: aqua;
+    margin-top: 0px;
+    position: fixed;
+    
+}
+
+#four{
+    margin-left: 500px;
+    
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.five td, .five th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  } 
+   
+.five tr:nth-child(even){background-color: #f2f2f2;}
+  
+.five tr:hover {background-color: #ddd;}
+  
+.five th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+.five tr{
+    background-color: white;
+  }
+.five{
+    margin-left: 75px;
+    margin-top: 30px;
+    text-align: center;
+}
+#six{
+  background-color: aqua;
+  margin-left: 260px;
+  width: 80%;
+  height: 50px;
+  padding-top: 20px;
+}
+.six table,td,tr,th{
+  text-decoration: none;
+  border: 1px solid black;
+  
+}
+.six{
+  background-color: aqua;
+  margin-left: 260px;
+  margin-right: 0px;
+  width: 80%;
+  height: 630px;
+  position: fixed;
+  padding-left: 50px;
+}
+.six td, .six th {
+  border: 1px solid black;
+  padding: 10px;
+} 
+.six tr:nth-child(first){background-color: wheat;}
+  
+.six tr:hover {background-color: gray;}
+.six th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.six table,th,tr,td{
+  margin-left: 50px;
+  margin-top: 0px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.button1{
+  margin-top: 10px;
+  margin-left: 500px;
+}
+.button2{
+  margin-top: 10px;
+  
+}
+.table{
+  border-color: black;
+  
+}
+#seven{
+  height: 300px;
+  width: 70%;
+  margin-top: 30px;
+  border-collapse: collapse;
+
+}
+

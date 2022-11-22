@@ -1,0 +1,63 @@
+table{
+    width: 100%;
+    height: 20px;
+    margin: 40px auto;
+    background: yellow;
+    border-collapse: collapse;
+    
+}
+table.list{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even),table.list thead> tr{
+    background-color: pink;
+}
+input [type="text"],input[type="number"] {
+    width: 50%;
+    padding: 20px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+input [type="submit"],input[type="reset"]{
+    background: yellowgreen;
+    padding: 6px 8px;
+    margin: 15px 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 30px 30px;
+    cursor: pointer;
+    outline: none;
+
+}
+input[type="submit"]:hover{
+    background: green;
+}
+input[type="reset"]:hover{
+    background: green;
+}
+/* button{
+    background: red;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 3px solid green;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: red;
+} */

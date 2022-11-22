@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>crud operation</title>
+        
+        <link type="text/css" rel="stylesheet" href="style1.css">
+        <!-- <script src="crud.js"></script> -->
+    </head>
+    <body>
+        <table>
+            <tr>
+              <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                <div>
+                  <label for="scenarioid">ScenarioId:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="number" name="ScenarioId" id="scenarioid">
+                </div><br>
+                <div>
+                  <label for="scenarioname">ScenarioName:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="text" name="ScenarioName" id="scenarioname">
+                </div><br>
+                <div>
+                  <label for="scenariotime">ScenarioTime:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="number" name="ScenarioTime" id="scenariotime">
+                </div><br>
+                <div>
+                  <label for="numberofvehicle">NumberofVehicle:</label>&nbsp;
+                  <input type="number" name="NumberofVehicle" id="numberofvehicle">
+                </div><br>
+                <div>
+                  <label for="addvehicle">AddVehicle:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="number" name="AddVehicle" id="addvehicle">
+                </div><br>
+                <div class="form_action--button">
+                  <input type="submit" value="Submit">
+                  <input type="reset" value="Reset">
+                  
+                </div>
+            </form>
+            <td>
+                <table class="list" id="storeList">
+                    <thead>
+                        <tr>
+                            <th>ScenarioId</th>
+                            <th>ScenarioName</th>
+                            <th>ScenarioTime</th>
+                            <th>NumberofVehicle</th>
+                            <th>AddVehicle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+
+                </table>
+            </td>
+              </td>
+            </tr>
+          </table>
+          <script type="text/javascript" src="./crud.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
